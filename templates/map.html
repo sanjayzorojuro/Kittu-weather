@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Weather Map</title>
+
+  <!-- Leaflet CSS + JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="/css/map.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="weather-emoji">🌤️</span>
+      <h1>Kittu Weather</h1>
+    </div>
+    <div class="nav-links">
+      <a href="/" class="nav-link ">Home</a>
+      <a href="/dashboard" class="nav-link">Dashboard</a>
+      <a href="/forecast" class="nav-link">Forecast</a>
+      <a href="/map" class="nav-link active">Maps</a>
+      <a href="/alert" class="nav-link">Alerts</a>
+    </div>
+  </nav>
+
+  <div id="map"></div>
+
+  <div class="control-box">
+    <div class="control-title">
+      🌍 Weather Map Control
+    </div>
+    <div class="search-container">
+      <input type="text" id="city" placeholder="🔍 Enter city name" />
+      <button id="search">Search</button>
+    </div>
+
+    <div class="layer-section">
+      <label for="layerSelect">📊 Weather Layer:</label>
+      <select id="layerSelect">
+        <option value="temp_new">🌡️ Temperature</option>
+        <option value="clouds_new">☁️ Clouds</option>
+        <option value="wind_new">💨 Wind Speed</option>
+        <option value="pressure_new">🌬️ Pressure</option>
+        <option value="precipitation_new">🌧️ Precipitation</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="weather-info" id="weatherInfo">
+    <div class="weather-header">
+      <div>
+        <div class="weather-city" id="weatherCity">--</div>
+        <div class="weather-temp" id="weatherTemp">--°C</div>
+      </div>
+      <button class="close-btn" id="closeWeather">✕</button>
+    </div>
+    <div class="weather-details">
+      <div class="weather-detail">
+        <span class="weather-label">Feels Like</span>
+        <span class="weather-value" id="feelsLike">--°C</span>
+      </div>
+      <div class="weather-detail">
+        <span class="weather-label">Humidity</span>
+        <span class="weather-value" id="humidity">--%</span>
+      </div>
+      <div class="weather-detail">
+        <span class="weather-label">Wind Speed</span>
+        <span class="weather-value" id="windSpeed">-- m/s</span>
+      </div>
+      <div class="weather-detail">
+        <span class="weather-label">Pressure</span>
+        <span class="weather-value" id="pressure">-- hPa</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="loading" id="loading">⏳ Loading...</div>
+  <script src="/js/map.js"></script>
+</body>
+
+</html>
+
+<!-- 
+move the control box and weather info box and bring that to the left side of the screen and also make this page resopnsive so that it can be seen in any kind of phone and also make the 2 box smaller in the phone and make it fully responsive -->
