@@ -153,8 +153,30 @@ Made with ❤️ by Kittu Weather Team
 
 
 <img src="assets/home1.png" width="1902" height="929" >
-
-
+---
+<img src="assets/home2.png" width="1902" height="929" >
+---
+<img src="assets/dash.png" width="1902" height="929" >
+---
+<img src="assets/forecast.png" width="1902" height="929" >
+---
+<img src="assets/map.png" width="1902" height="929" >
+---
+<img src="assets/alert.png" width="1902" height="929" >
+---
+<img src="assets/settings.png" width="1902" height="929" >
+---
+<img src="assets/settings-d.png" width="1902" height="929" >
+---
+<img src="assets/home-d.png" width="1902" height="929" >
+---
+<img src="assets/dash-d.png" width="1902" height="929" >
+---
+<img src="assets/forecast-d.png" width="1902" height="929" >
+---
+<img src="assets/map-d.png" width="1902" height="929" >
+---
+<img src="assets/alert-d.png" width="1902" height="929" >
 
 
 
