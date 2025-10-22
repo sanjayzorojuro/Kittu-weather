@@ -71,6 +71,8 @@ Specification	Details
 
 🌦️ Custom UI	Weather-specific SVG Icons
 
+---
+
 🧠 Tech Stack
 
 
@@ -89,16 +91,16 @@ Styling: Custom CSS
 ---
 
 📦 Installation
-# Clone the repository
+ Clone the repository
 git clone https://github.com/sanjayzorojuro/Kittu-weather.git
 
-# Navigate to project directory
+Navigate to project directory
 cd Kittu-weather
 
-# Install dependencies
+ Install dependencies
 npm install
 
-# Start the Express server
+Start the Express server
 node server.js
 
 ---
@@ -146,6 +148,7 @@ Made with ❤️ by Kittu Weather Team
 💬 Open issues for feature requests or bugs
 
 🤝 Contributions are welcome
+
 
 
 
