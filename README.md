@@ -91,16 +91,16 @@ Styling: Custom CSS
 ---
 
 📦 Installation
- Clone the repository
+ # Clone the repository
 git clone https://github.com/sanjayzorojuro/Kittu-weather.git
 
 Navigate to project directory
-cd Kittu-weather
+# cd Kittu-weather
 
- Install dependencies
+# Install dependencies
 npm install
 
-Start the Express server
+# Start the Express server
 node server.js
 
 ---
