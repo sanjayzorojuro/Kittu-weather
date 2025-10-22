@@ -152,7 +152,8 @@ Made with ❤️ by Kittu Weather Team
 ---
 
 
-<img src="assets/home1.png" width="600" alt="">
+<img src="assets/home1.png" width="1902" height="929" >
+
 
 
 
