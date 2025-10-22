@@ -149,6 +149,10 @@ Made with ❤️ by Kittu Weather Team
 
 🤝 Contributions are welcome
 
+---
+
+"C:\Users\sanja\OneDrive\Pictures\Screenshots\Screenshot 2025-10-22 120728.png"
+
 
 
 
