@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Alerts - Kittu Weather</title>
+    <link rel="stylesheet" href="/css/alert.css">
+    <link rel="stylesheet" href="/css/dark-theme.css" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="weather-emoji">🌤️</span>
+            <h1>Kittu Weather</h1>
+        </div>
+        <div class="nav-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/dashboard" class="nav-link">Dashboard</a>
+            <a href="/forecast" class="nav-link">Forecast</a>
+            <a href="/map" class="nav-link">Maps</a>
+            <a href="/alert" class="nav-link active">Alerts</a>
+            <a href="/settings" class="nav-link">Settings</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1 class="page-title">Active Weather Alerts</h1>
+            <p class="page-subtitle">
+                Stay informed about critical weather conditions in your area.
+            </p>
+            <div class="current-city-box">
+                📍 Current City: <span id="currentCity">Fetching...</span>
+            </div>
+        </div>
+
+        <div class="alert-grid" id="alertGrid">
+            <p style="text-align: center">Loading alerts...</p>
+        </div>
+    </div>
+    <script src="/js/alert.js">        (function () {
+            const theme = localStorage.getItem('theme');
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();</script>
+
+
+</body>
+
+</html>

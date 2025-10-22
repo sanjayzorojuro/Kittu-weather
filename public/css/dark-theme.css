@@ -1,0 +1,213 @@
+/*
+========================================
+    Kittu Weather - Dark Theme 
+========================================
+*/
+
+/* --- Base Body & Background --- */
+
+.dark-mode body {
+  background: linear-gradient(
+    135deg,
+    #1e293b 0%,
+    #111827 25%,
+    #0f172a 50%,
+    #1e293b 75%,
+    #111827 100%
+  );
+  background-size: 700% 700%;
+}
+
+/* --- Navbar --- */
+
+.dark-mode .navbar {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 41, 59, 0.9),
+    rgba(17, 24, 39, 0.95)
+  );
+  border-bottom: 2px solid rgba(129, 140, 248, 0.2);
+  box-shadow: 0 4px 20px rgba(129, 140, 248, 0.1);
+}
+
+.dark-mode .nav-link {
+  color: #cbd5e1; /* light slate */
+}
+
+.dark-mode .nav-link:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(129, 140, 248, 0.1),
+    rgba(167, 139, 250, 0.1)
+  );
+  color: #a78bfa; /* light violet */
+}
+
+/* .nav-link.active and .nav-brand h1 (gradient) look good on dark mode, no change needed */
+
+/* --- General Text --- */
+
+.dark-mode .page-subtitle,
+.dark-mode .weather-desc,
+.dark-mode .wind-details,
+.dark-mode .time-label {
+  color: #94a3b8; /* medium-light slate */
+}
+
+.dark-mode .location {
+  color: #c4b5fd; /* lighter violet */
+}
+
+/* --- Containers & Cards (Dashboard, Map, Settings) --- */
+
+.dark-mode .container {
+  background: rgba(17, 24, 39, 0.9); /* dark gray-blue */
+  border: 2px solid rgba(129, 140, 248, 0.2);
+  box-shadow: 0 25px 50px rgba(129, 140, 248, 0.1);
+}
+
+.dark-mode .lbox,
+.dark-mode .rbox,
+.dark-mode .settings-card,
+.dark-mode .map-controls-container {
+  background: linear-gradient(
+    145deg,
+    rgba(30, 41, 59, 0.95),
+    rgba(17, 24, 39, 0.9)
+  );
+  border: 2px solid rgba(129, 140, 248, 0.3);
+  box-shadow: 0 15px 35px rgba(129, 140, 248, 0.1);
+}
+
+/* --- Small Cards & Boxes (Dashboard, Map) --- */
+
+.dark-mode .box1,
+.dark-mode .box2,
+.dark-mode .box3,
+.dark-mode .box4,
+.dark-mode .boxx,
+.dark-mode .downbox,
+.dark-mode .layers1,
+.dark-mode .forecast-card,
+.dark-mode .alert-card,
+.dark-mode .spec-item,
+.dark-mode .detail-item,
+.dark-mode .footer,
+.dark-mode .feature-card,
+.dark-mode .current-city-box,
+.dark-mode .control-box,
+.dark-mode .weather-info {
+  background: linear-gradient(
+    145deg,
+    rgba(30, 41, 59, 0.8),
+    rgba(17, 24, 39, 0.7)
+  );
+  border: 2px solid rgba(129, 140, 248, 0.2);
+  box-shadow: 0 8px 25px rgba(129, 140, 248, 0.05);
+}
+
+.dark-mode .box1:hover,
+.dark-mode .box2:hover,
+.dark-mode .box3:hover,
+.dark-mode .box4:hover,
+.dark-mode .boxx:hover {
+  box-shadow: 0 15px 35px rgba(129, 140, 248, 0.2);
+  background: rgba(30, 41, 59, 0.95);
+}
+
+/* --- Card Content (Labels, Values) --- */
+
+.dark-mode .metric-label,
+.dark-mode .chart-title,
+.dark-mode .section-title,
+.dark-mode .control-title,
+.dark-mode .weather-label {
+  color: #c4b5fd; /* lighter violet */
+}
+
+.dark-mode .metric-value,
+.dark-mode .forecast-temp,
+.dark-mode .wind-speed,
+.dark-mode .card-title,
+.dark-mode .weather-city,
+.dark-mode .weather-value {
+  color: #a78bfa; /* light violet */
+}
+
+.dark-mode .card-description {
+  color: #94a3b8;
+}
+
+/* --- Inputs & Buttons (Search, Select, Theme) --- */
+
+.dark-mode .searchbar,
+.dark-mode .login-form input,
+.dark-mode #layerSelect {
+  background: linear-gradient(
+    135deg,
+    rgba(45, 55, 72, 0.8),
+    rgba(30, 41, 59, 0.9)
+  );
+  border: 2px solid rgba(129, 140, 248, 0.3);
+  color: #e2e8f0; /* light gray */
+}
+
+.dark-mode .searchbar::placeholder,
+.dark-mode .login-form input::placeholder {
+  color: #94a3b8;
+}
+
+.dark-mode .searchbar:hover,
+.dark-mode .searchbar:focus,
+.dark-mode .login-form input:hover,
+.dark-mode .login-form input:focus,
+.dark-mode #layerSelect:hover,
+.dark-mode #layerSelect:focus {
+  border-color: rgba(129, 140, 248, 0.6);
+  background: rgba(45, 55, 72, 0.95);
+  box-shadow: 0 8px 25px rgba(129, 140, 248, 0.15);
+}
+
+.dark-mode .theme-option {
+  background: linear-gradient(
+    145deg,
+    rgba(45, 55, 72, 0.9),
+    rgba(30, 41, 59, 0.8)
+  );
+  border: 2px solid rgba(129, 140, 248, 0.2);
+}
+
+.dark-mode .theme-option:hover {
+  box-shadow: 0 10px 25px rgba(129, 140, 248, 0.2);
+  border-color: rgba(129, 140, 248, 0.4);
+}
+
+.dark-mode .theme-option.active {
+  border-color: #a78bfa;
+  background: linear-gradient(
+    135deg,
+    rgba(129, 140, 248, 0.15),
+    rgba(167, 139, 250, 0.15)
+  );
+}
+
+.dark-mode .theme-label {
+  color: #cbd5e1;
+}
+
+.dark-mode .theme-status {
+  color: #94a3b8;
+}
+
+.dark-mode .close-btn {
+  color: #94a3b8;
+}
+
+/* --- Scrollbar --- */
+
+.dark-mode ::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.5);
+  border-radius: 12px;
+}
+
+/* ::-webkit-scrollbar-thumb gradient looks good on dark mode, no change needed */
