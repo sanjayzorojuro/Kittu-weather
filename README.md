@@ -2,10 +2,13 @@
 
 A Premium Weather Application built with JavaScript and Express.js, providing real-time weather updates, intelligent forecasts, dynamic maps, and weather alerts — all wrapped in a stunning interface with Dark & Light Mode support.
 
+```
+
 🚀 Overview
 
 Kittu Weather Companion is a feature-rich, responsive weather application designed to deliver global weather insights with accuracy and speed. It includes an interactive map that automatically zooms into the selected location, customizable weather icons, and a dedicated alert system to keep users informed of severe conditions.
 
+```
 ✨ Key Features
 🌓 Dark Mode & Light Mode
 
@@ -133,3 +136,4 @@ Made with ❤️ by Kittu Weather Team
 💬 Open issues for feature requests or bugs
 
 🤝 Contributions are welcome
+
