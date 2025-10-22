@@ -6,12 +6,6 @@ const app = express();
 const port = 3000;
 const helmet = require('helmet')
 
-// Middleware to parse JSON and URL-encoded data
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.use('/.well-known', express.static(path.join(__dirname, '.well-known')));
-
 // Serve static files
 app.use(express.static(path.join(__dirname,'public')))
 
@@ -39,5 +33,6 @@ app.get("/alert",(req,res)=>{
 app.get("/settings",(req,res)=>{
     res.sendFile(path.join(__dirname,"templates","settings.html"))
 })
+
 
 app.listen(port,()=> console.log(`Server running on http://localhost:${port}`))
