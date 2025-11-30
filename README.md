@@ -1,17 +1,17 @@
-🌤️ Kittu Weather Companion
+ Kittu Weather Companion
 
 A Premium Weather Application built with JavaScript and Express.js, providing real-time weather updates, intelligent forecasts, dynamic maps, and weather alerts — all wrapped in a stunning interface with Dark & Light Mode support.
 
 ---
 
-🚀 Overview
+ Overview
 
 Kittu Weather Companion is a feature-rich, responsive weather application designed to deliver global weather insights with accuracy and speed. It includes an interactive map that automatically zooms into the selected location, customizable weather icons, and a dedicated alert system to keep users informed of severe conditions.
 
 ---
 
-✨ Key Features
-🌓 Dark Mode & Light Mode
+ Key Features
+ Dark Mode & Light Mode
 
 Seamlessly toggle between themes for enhanced readability and comfort.
 
@@ -19,7 +19,7 @@ Automatic theme persistence using local storage or system preference detection.
 
 ---
 
-📊 Interactive Dashboard
+ Interactive Dashboard
 
 Real-time weather stats: Temperature, humidity, wind speed, visibility, and atmospheric pressure.
 
@@ -27,7 +27,7 @@ Clean UI powered by Express.js templates and JavaScript functionality.
 
 ---
 
-📅 10-Day Weather Forecast
+ 10-Day Weather Forecast
 
 Detailed daily and hourly forecasts.
 
@@ -37,7 +37,7 @@ Intuitive weather trend visualization.
 
 ---
 
-🗺️ Intelligent Weather Map
+ Intelligent Weather Map
 
 Interactive global weather map.
 
@@ -47,7 +47,7 @@ Shows precipitation layers, wind patterns, and satellite data in real-time.
 
 ---
 
-🚨 Weather Alerts Page
+ Weather Alerts Page
 
 Dedicated alert module that displays real-time warnings such as storms, rainfall, or extreme temperatures.
 
@@ -55,25 +55,25 @@ Helps users stay informed and prepared for critical weather changes.
 
 ---
 
-⚙️ Specifications
+ Specifications
 
 Specification	Details
 
-🌍 Coverage	Global Weather Data
+ Coverage	Global Weather Data
 
-⚡ Sync Rate	Real-Time API Integration
+ Sync Rate	Real-Time API Integration
 
-🖥️ Backend	JavaScript (Node.js + Express)
+ Backend	JavaScript (Node.js + Express)
 
-🎨 Themes	Fully Responsive + Dark/Light Modes
+ Themes	Fully Responsive + Dark/Light Modes
 
-📡 Map Feature	Auto-Zoom to Selected Location
+ Map Feature	Auto-Zoom to Selected Location
 
-🌦️ Custom UI	Weather-specific SVG Icons
+ Custom UI	Weather-specific SVG Icons
 
 ---
 
-🧠 Tech Stack
+ Tech Stack
 
 
 Backend: Node.js + Express.js
@@ -90,7 +90,7 @@ Styling: Custom CSS
 
 ---
 
-📦 Installation
+ Installation
  # Clone the repository
 git clone https://github.com/sanjayzorojuro/Kittu-weather.git
 
@@ -105,7 +105,7 @@ node server.js
 
 ---
 
-📸 Core Modules
+ Core Modules
 
 🔹 Dashboard
 
@@ -134,20 +134,20 @@ Severity-based highlighting
 ---
 
 
-❤️ Developed with Passion
+ Developed with Passion
 
-Made with ❤️ by Kittu Weather Team
+Made with  by Kittu Weather Team
 © 2025 Kittu Weather. All rights reserved.
 
 ---
 
-⭐ Contribute & Support
+ Contribute & Support
 
-⭐ Star this repo if you find it useful!
+ Star this repo if you find it useful!
 
-💬 Open issues for feature requests or bugs
+ Open issues for feature requests or bugs
 
-🤝 Contributions are welcome
+ Contributions are welcome
 
 ---
 
@@ -177,6 +177,7 @@ Made with ❤️ by Kittu Weather Team
 <img src="assets/map-d.png" width="1902" height="929" >
 ---
 <img src="assets/alert-d.png" width="1902" height="929" >
+
 
 
 
